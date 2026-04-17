@@ -108,7 +108,7 @@ We simulated a room full of expert AI personas—a cynical QA Engineer, a perfec
 
 The Genesis Initiative aims to move beyond simple orchestration toward **Autonomous Engineering Ecosystems**. Our roadmap includes:
 - **Self-Annealing Directives**: The framework updating its own rules based on project failures.
-- **Multi-Agent Consensus**: Requiring three different AI models to agree on an architecture before it's approved.
+- **Multi-Agent Consensus**: Requiring three different AI Agents to agree on an architecture before it's approved.
 - **Hardware-Aware Solutioning**: Optimizing the "Solutioning" phase based on the target deployment environment automatically.
 
 ---
