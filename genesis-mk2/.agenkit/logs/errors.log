@@ -1,4 +1,0 @@
-{"timestamp": "2026-04-16T17:03:05.103128", "error_code": "E010", "error_name": "Unknown Error", "severity": "critical", "message": "EOF when reading a line", "location": "interactive", "context": {}}
-{"timestamp": "2026-04-16T17:03:05.116666", "error_code": "E010", "error_name": "Unknown Error", "severity": "critical", "message": "EOF when reading a line", "location": "interactive", "context": {}}
-{"timestamp": "2026-04-16T17:03:17.548027", "error_code": "E010", "error_name": "Unknown Error", "severity": "critical", "message": "EOF when reading a line", "location": "interactive", "context": {}}
-{"timestamp": "2026-04-17T16:05:59.380563", "error_code": "E005", "error_name": "State Management Error", "severity": "critical", "message": "'charmap' codec can't encode character '\\u2713' in position 0: character maps to <undefined>", "location": "create_session", "context": {}}

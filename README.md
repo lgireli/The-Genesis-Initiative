@@ -2,7 +2,7 @@
 
 **The Genesis Initiative** is a high-integrity, portable orchestration framework designed to transform general-purpose AI agents (like Claude, GPT-4, or Gemini) into professional, disciplined software engineering leads.
 
-Most AI coding is "chat-based"—you ask for a feature, and the AI writes code. While fast, this often leads to **"AI Drift"**: the AI forgets previous decisions, introduces bugs, or hallucinates requirements. **Genesis MK2** solves this by treating the AI not as a chatbot, but as a **Chief Orchestrator** operating within a rigorous, state-gated system.
+Most AI coding is "chat-based"—you ask for a feature, and the AI writes code. While fast, this often leads to **"AI Drift"**: the AI forgets previous decisions, introduces bugs, or hallucinates requirements. **Genesis** solves this by treating the AI not as a chatbot, but as a **Chief Orchestrator** operating within a rigorous, state-gated system.
 
 ---
 
@@ -23,7 +23,7 @@ While Genesis produces high-quality code, it is "low-code" for the *human*. You 
 
 ## 🎯 The Core Philosophy: The BMAD Pipeline
 
-Genesis MK2 operates on the **BMAD Strategic Method**. The golden rule is: **No code is written until the problem is solved on paper.**
+Genesis operates on the **BMAD Strategic Method**. The golden rule is: **No code is written until the problem is solved on paper.**
 
 | Phase | Name | Goal | The "Beginner" Explanation | Gate |
 | :--- | :--- | :--- | :--- | :--- |
@@ -38,7 +38,7 @@ Genesis MK2 operates on the **BMAD Strategic Method**. The golden rule is: **No 
 
 ### 📦 1. Portable "Drop-and-Run" Design
 Genesis isn't a software you install; it's a folder you drop.
-- **How it works:** You simply copy the `genesis-mk2/` folder into any project.
+- **How it works:** You simply copy the `Genesis/` folder into any project.
 - **Benefit:** You can move your entire development environment across different computers or cloud platforms instantly.
 
 ### 🧠 2. The Anti-Amnesia System (State Management)
@@ -77,14 +77,14 @@ Genesis separates **Thinking** from **Doing**.
 ## 🛠️ How to Get Started
 
 ### For the Human User
-1. **Drop**: Copy the `genesis-mk2` folder into your project root.
+1. **Drop**: Copy the `Genesis` folder into your project root.
 2. **Point**: Open your favorite AI (Claude 3.5, GPT-4o, etc.) and tell it: 
-   > *"Read `genesis-mk2/START-HERE.md` and begin the orchestration."*
+   > *"Read `Genesis/START-HERE.md` and begin the orchestration."*
 3. **Collaborate**: The AI will now guide you through the BMAD pipeline. It will ask you questions, show you plans, and request your approval before writing any code.
 
 ### For the AI Agent
 Upon activation, you must strictly adhere to the following:
-1. **Bootstrap**: Execute `python genesis-mk2/bootstrap.py` to initialize the session.
+1. **Bootstrap**: Execute `python Genesis/bootstrap.py` to initialize the session.
 2. **Adopt Persona**: You are now the **Chief Orchestrator**.
 3. **Enforce Gates**: Never proceed to the next phase until the current phase's Quality Gate is signed off by the user.
 4. **Maintain State**: Update the `SITREP.md` after every major milestone.
