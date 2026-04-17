@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-04-16T10:30:00",
+  "error_code": "E001",
+  "error_name": "Configuration Missing",
+  "severity": "critical",
+  "message": "Configuration file not found",
+  "location": ".agenkit/config.json",
+  "context": {
+    "required": "config.json"
+  }
+}

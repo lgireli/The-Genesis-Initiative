@@ -1,0 +1,8 @@
+{
+  "analysis": "framework/directives/procedures/analysis.md",
+  "planning": "framework/directives/procedures/planning.md",
+  "solutioning": "framework/directives/procedures/solutioning.md",
+  "implementation": "framework/directives/procedures/implementation.md",
+  "quick-flow": "framework/directives/procedures/quick-flow.md",
+  "code-review": "framework/directives/procedures/code-review.md"
+}

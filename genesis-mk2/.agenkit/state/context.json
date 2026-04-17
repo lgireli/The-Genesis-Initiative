@@ -1,0 +1,20 @@
+{
+  "context_id": "ctx_001",
+  "session_id": "test_session",
+  "created_at": "2026-04-16T17:03:23.248927",
+  "last_updated": "2026-04-16T17:03:23.248931",
+  "summary": "Test context",
+  "key_decisions": [],
+  "open_questions": [],
+  "current_focus": {
+    "type": "none",
+    "id": null,
+    "title": null,
+    "status": null
+  },
+  "recent_changes": [],
+  "memory": {
+    "short_term": [],
+    "long_term": []
+  }
+}

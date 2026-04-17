@@ -1,0 +1,10 @@
+﻿{
+  "project": {
+    "name": "fastapi-postgres",
+    "type": "web",
+    "stack": "fastapi-postgres"
+  },
+  "agents": ["orchestrator", "frontend-specialist", "backend-specialist"],
+  "skills": ["clean-code", "lint-and-validate"],
+  "approval_required": ["architectural-changes", "dependency-additions"]
+}

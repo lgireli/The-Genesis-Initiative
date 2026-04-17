@@ -1,0 +1,12 @@
+﻿{
+  "name": "express-mongodb",
+  "version": "1.0.0",
+  "description": "Generated with Genesis MK2",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0"
+  }
+}
