@@ -62,6 +62,18 @@ Genesis separates **Thinking** from **Doing**.
 
 ---
 
+## ⚖️ Traditional Chat vs. Genesis Orchestration
+
+| Feature | Traditional AI Chat | Genesis Orchestration |
+| :--- | :--- | :--- |
+| **Workflow** | Ad-hoc / Conversational | Rigid / Gate-Based |
+| **Memory** | Context Window (Short-term) | SITREP + Session State (Permanent) |
+| **Quality Control** | "Trust me, it works" | Deterministic Validation (Skills) |
+| **Architecture** | Emergent (Often messy) | Intentional (Solutioning Phase) |
+| **Consistency** | Varies by model/prompt | Consistent across models (via Directives) |
+
+---
+
 ## 🛠️ How to Get Started
 
 ### For the Human User
@@ -89,6 +101,26 @@ We simulated a room full of expert AI personas—a cynical QA Engineer, a perfec
 - **Hardened Security**: Automatic exclusion of secrets and keys.
 - **Path Independence**: The framework works regardless of where it's placed.
 - **Fail-Safe Recovery**: If the AI makes a mistake, it is trained to analyze, patch, and document the error to prevent it from happening again.
+
+---
+
+## 🔭 Vision for the Future
+
+The Genesis Initiative aims to move beyond simple orchestration toward **Autonomous Engineering Ecosystems**. Our roadmap includes:
+- **Self-Annealing Directives**: The framework updating its own rules based on project failures.
+- **Multi-Agent Consensus**: Requiring three different AI models to agree on an architecture before it's approved.
+- **Hardware-Aware Solutioning**: Optimizing the "Solutioning" phase based on the target deployment environment automatically.
+
+---
+
+## 📜 Credits & Attributions
+
+The Genesis Initiative is built upon the shoulders of giants. We gratefully acknowledge the following influences and foundations:
+
+- **The BMAD Method**: This framework implements the [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD), a strategic approach to AI-driven development.
+- **Antigravity Kit**: We utilize state-management and agentic concepts inspired by the [Antigravity-Kit](https://github.com/vudovn/antigravity-kit).
+
+Both projects are licensed under the **MIT License**, and we encourage users to explore their repositories to understand the deep theory behind agentic orchestration.
 
 ---
 
