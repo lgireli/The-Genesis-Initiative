@@ -24,8 +24,7 @@ Genesis MK2 operates on the **BMAD Strategic Method**, ensuring that no code is 
 ### 📦 1. Portable "Drag-and-Drop" Design
 The entire framework lives in the `genesis-mk2/` folder. To activate it in any project:
 1. **Drop** the `genesis-mk2` folder into your project root.
-2. **Run** `python genesis-mk2/bootstrap.py`.
-3. **Point** your AI agent to `genesis-mk2/START-HERE.md`.
+2. **Point** your AI agent to `genesis-mk2/START-HERE.md`.
 
 ### 🧠 2. Zero-Config Orchestration
 The framework handles its own state. It creates a hidden `.agenkit` directory to track sessions, context, and decision history, ensuring that the AI remembers every architectural choice made.
@@ -43,16 +42,13 @@ If a session crashes or a new agent is called, the framework uses a `SITREP.md` 
 ## 🛠️ How to Use
 
 ### For the Human User
-1. Copy the `genesis-mk2` folder into your blank project.
-2. Execute the bootstrap script:
-   ```bash
-   python genesis-mk2/bootstrap.py
-   ```
-3. Tell your AI: *"Read `genesis-mk2/START-HERE.md` and begin the orchestration."*
+1. **Drop**: Copy the `genesis-mk2` folder into your blank project root.
+2. **Point**: Tell your AI: *"Read `genesis-mk2/START-HERE.md` and begin the orchestration."*
+3. **Watch**: The AI will automatically bootstrap the project and guide you through the BMAD workflow.
 
 ### For the AI Agent
 Upon reading `START-HERE.md`, you are activated as the **Chief Orchestrator**. You must:
-1. **Bootstrap**: Run the initialization script.
+1. **Bootstrap**: Immediately execute `python genesis-mk2/bootstrap.py` to initialize the project state.
 2. **Analyze**: Execute Phase 1 to create a Product Brief.
 3. **Plan**: Design the PRD and UX.
 4. **Solve**: Architect the solution.
